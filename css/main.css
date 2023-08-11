@@ -1,0 +1,293 @@
+body {
+  background: #d8d2d2;
+  font-family: "Alegreya", serif;
+  margin: 0;
+  /* padding: 0 20px; */
+}
+/* <!-- start Header --> */
+.clear-fix {
+  clear: both;
+}
+.navbar {
+  background-color: white;
+  color: #333333;
+  height: 8vh;
+  text-align: center;
+}
+.nav-container {
+  padding: 0px 30px;
+}
+.navbar .active {
+  border-top: 2px solid #7e5f40;
+  color: black;
+  /* background-color: brown; */
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.nav-img {
+  width: 10%;
+  padding: 0 70px;
+}
+.nav-img img {
+  margin-top: 17px;
+  width: 100%;
+}
+.nav-links {
+  width: 50%;
+  /* padding: 10px; */
+}
+.nav-links ul {
+  list-style: none;
+}
+.nav-links ul li {
+  width: 15%;
+  /* padding: 10px 0px; */
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* <!-- End Header --> */
+/* <!-- start Home --> */
+.home {
+  text-align: center;
+  height: 94vh;
+  color: white;
+  background-image: url(../img/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+}
+h1 {
+  margin: 20px 0;
+  font-size: 76px;
+  font-weight: 400;
+}
+.wel {
+  font-size: 22px;
+  margin: 0;
+  padding-top: 150px;
+}
+.descr {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0px 20px;
+}
+.learn {
+  border: 2px solid #7e5f40;
+}
+.home button {
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  margin: 20px 20px;
+}
+.contact-btn {
+  background-color: transparent;
+  border: 2px solid white;
+}
+.learn {
+  background-color: #7e5f40;
+}
+/* <!-- End Home --> */
+/* <!-- start who we --> */
+.who {
+  background-color: white;
+  height: 92vh;
+}
+.container {
+  padding: 90px;
+}
+.who h4 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.who img {
+  width: 40%;
+}
+.who-img {
+  display: inline-block;
+  width: 40%;
+}
+.who-img img {
+  width: 100%;
+}
+.whoP {
+  margin-left: 70px;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+.description {
+  color: #686868;
+  font-size: 17px;
+}
+.icns img {
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.icns p {
+  display: inline-block;
+  font-size: 17px;
+  color: #686868;
+  padding-bottom: 10px;
+}
+/* <!-- End who we --> */
+/* start location */
+.location {
+  background-color: #eee;
+}
+.location img {
+  margin-left: 70px;
+}
+/* End location */
+/* start baking */
+.baking {
+  text-align: center;
+  background-color: white;
+}
+.baking h4 {
+  margin: 0;
+  padding: 70px 0px 20px;
+  font-weight: 400;
+  color: #303030;
+  font-size: 30px;
+}
+.baking p {
+  margin: 0;
+  padding-bottom: 70px;
+  color: #888888;
+  font-size: 17px;
+}
+.products {
+  margin: auto;
+}
+.pr {
+  width: 25%;
+  margin-left: 6%;
+}
+.pr img {
+  width: 100%;
+}
+.pr h5 {
+  font-size: 22px;
+  color: #303030;
+  font-weight: 400;
+}
+.pr p {
+  color: #888888;
+  font-size: 17px;
+}
+/* End baking */
+/* start Contact */
+.contact {
+  background-color: #f0e6e6;
+}
+.contact-content {
+  width: 45%;
+}
+.contact-content .icns p {
+  margin: 10px 0px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 17px;
+
+}
+.contact-content .our {
+  padding: 20px 0;
+  color: #686868;
+}
+h4 {
+  font-weight: 400;
+  font-size: 32px;
+}
+.contact-content .icns img,
+.s-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.contact-img {
+  margin-left: 45px;
+  width: 45%;
+}
+.content-img img {
+  width: 100%;
+}
+/* End Contact */
+/* start overview */
+.sp-container {
+  padding: 20px 40px;
+}
+.overview {
+  background-color: #403d38;
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+}
+.overview .sp-container .section {
+  width: 22%;
+  color: #969696;
+  margin-left: 29px;
+}
+.overview .sp-container .section ul {
+  padding: 0;
+  list-style-type: "\003E";
+}
+.overview .sp-container .section ul li {
+  border-bottom: 1px solid #9696966a;
+  padding: 10px 5px;
+}
+.overview .sp-container .section ul .sp-border {
+  border-bottom: none;
+}
+.overview .sp-container .section h5 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Alegreya;
+}
+.overview .sp-container .section a,
+.overview .sp-container .section p   {
+  color: #969696;
+  text-decoration: none;
+}
+.section .icns p {
+  border-bottom: 1px solid #9696966a;
+
+}
+/* End overview */
+/* start footer */
+.footer {
+  background-color: #353330;
+}
+.bekry {
+  text-align: center;
+  color: white;
+  width: 30%;
+  margin: auto;
+}
+.bekry p {
+  color: #777777;
+}
+.social {
+  width: 80%;
+  margin: auto;
+}
+.s-img {
+  margin-left: 15px;
+}
+/* End footer */
